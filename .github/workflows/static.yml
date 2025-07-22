@@ -1,0 +1,64 @@
+Copy<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reyfriki - Juegos y Mods</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        h1 {
+            margin: 20px 0;
+            text-align: center;
+        }
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Reyfriki - Juegos y Mods</h1>
+    </header>
+
+    <section id="juegos">
+        <h2>Links de Juegos</h2>
+        <ul>
+            <li><a href="#">Juego 1</a></li>
+            <li><a href="#">Juego 2</a></li>
+            <li><a href="#">Juego 3</a></li>
+        </ul>
+    </section>
+
+    <section id="mods">
+        <h2>Espacio para Mods</h2>
+        <form>
+            <label for="mod">Añadir Mods:</label>
+            <input type="text" id="mod" name="mod">
+            <button type="submit">Enviar</button>
+        </form>
+        <ul>
+            <!-- Aquí se mostrarán los mods añadidos por la comunidad -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2021 Reyfriki. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
